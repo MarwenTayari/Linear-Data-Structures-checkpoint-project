@@ -2,8 +2,8 @@ ALGORITHM problem2_Solution1
 VAR
    sum,i,j,k: INTEGER=0;  // declaring the indexes for each array.
    n,m : INTEGER;
-   tab1 : ARRAY_OF INTEGER[n]; // declaring the arrays.
-   tab2 : ARRAY_OF INTEGER[m]; 
+   tab1 : ARRAY_OF INTEGER[100]; // declaring the arrays.
+   tab2 : ARRAY_OF INTEGER[100]; 
 BEGIN
    Write("Tape the size of the table 1 :");
    Read(n);
